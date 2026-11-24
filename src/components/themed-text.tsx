@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     fontSize: 48,
     fontWeight: 600,
     lineHeight: 52,
+    fontFamily: 'Montserrat-SemiBold'
   },
   subtitle: {
     fontSize: 32,
@@ -50,7 +51,7 @@ const styles = StyleSheet.create({
     color: '#3c87f7',
   },
   code: {
-    fontFamily: Fonts.mono,
+    fontFamily: "Monomakh",
     fontWeight: Platform.select({ android: 700 }) ?? 500,
     fontSize: 12,
   },

@@ -40,7 +40,7 @@ export default function HomeScreen() {
         </ThemedView>
 
         <ThemedText type="code" style={styles.code}>
-          get started
+          2027
         </ThemedText>
 
         <ThemedView type="backgroundElement" style={styles.stepContainer}>
