@@ -10,6 +10,7 @@ import AppTabs from '@/components/app-tabs';
 SplashScreen.preventAutoHideAsync();
 
 export default function TabLayout() {
+  const colorScheme = useColorScheme();
   const [fontsLoaded, fontError] = useFonts({
     'Montserrat-Regular': require('../../assets/fonts/MontserratAlternates-Regular.ttf'),
     'Montserrat-SemiBold': require('../../assets/fonts/MontserratAlternates-SemiBold.ttf'),
@@ -22,7 +23,6 @@ export default function TabLayout() {
     return null;
   }
 
-  const colorScheme = useColorScheme();
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <AnimatedSplashOverlay />
