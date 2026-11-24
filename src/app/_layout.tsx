@@ -12,7 +12,10 @@ SplashScreen.preventAutoHideAsync();
 export default function TabLayout() {
   const [fontsLoaded, fontError] = useFonts({
     'Montserrat-Regular': require('../../assets/fonts/MontserratAlternates-Regular.ttf'),
-    'Montserrat-SemiBold' : require('../../assets/fonts/MontserratAlternates-SemiBold.ttf')
+    'Montserrat-SemiBold': require('../../assets/fonts/MontserratAlternates-SemiBold.ttf'),
+    'Montserrat-Bold': require('../../assets/fonts/MontserratAlternates-Bold.ttf'),
+    'Montserrat-Medium': require('../../assets/fonts/MontserratAlternates-Medium.ttf'),
+    'Monomakh' : require('../../assets/fonts/Monomakh-Regular.ttf'),
   })
 
   if (!fontsLoaded && !fontError) {
